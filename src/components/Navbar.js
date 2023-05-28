@@ -146,7 +146,7 @@ export default function Navbar() {
                   <Typography textAlign="center">Programs <img style={{ width: "12px", height: "7.42px", marginLeft: "6px" }} src={drop} alt="drop" /></Typography>
                 </MenuItem>
                 <MenuItem sx={{ xs: "none", md: "block", mr: 2.5, display: { xs: 'block', md: 'block', lg: "none" } }}>
-                  <Typography textAlign="center">Log in</Typography>
+                  <Button textAlign="center">Log in</Button>
                 </MenuItem>
                 <MenuItem sx={{ display: { xs: 'block', md: 'block', lg: "none" } }} >
                   <img src={button} alt="button" />
