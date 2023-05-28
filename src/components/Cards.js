@@ -259,7 +259,7 @@ export default function Cards() {
                                                 fontWeight: "400",
                                                 color: "#3C4852;",
                                                 marginRight: "45px",
-                                              
+
                                             }}>Subscription Fee</Typography>
                                             <Typography sx={{
                                                 fontWeight: "500",
@@ -269,39 +269,40 @@ export default function Cards() {
                                             }}>₹18,500</Typography>
                                         </div>
                                         {value === "Limited time offer -18401 Offer valid till 25th March 2023" ? <div className='red' style={{ marginTop: "14px", marginBottom: "20px" }}>
-                                          <div style={{display:"flex",}}>
-                                            <Typography sx={{
-                                                color: "#DE4313",
-                                                fontSize: "16px",
-                                                fontStyle: "normal",
-                                                fontWeight: "600",
-                                                marginTop:"-27px",
-                                                
-                                            
+                                            <div style={{ display: "flex", }}>
+                                                <Typography sx={{
+                                                    color: "#DE4313",
+                                                    fontSize: "16px",
+                                                    fontStyle: "normal",
+                                                    fontWeight: "600",
+                                                    marginTop: "-27px",
 
-                                            }}>{value.slice(0, 18)}</Typography>
-                                            <Typography sx={{
-                                                fontSize: "16px",
-                                                fontStyle: "normal",
-                                                fontWeight: "600",
-                                                letterSpacing: "0.03em",
-                                                color: " #3C4852",
-                                                marginTop:"-27px",
-                                              marginLeft:"105.8px"
-                                              }}>- ₹18,401</Typography></div>
-                                              <div style={{display:"flex",position:"absolute",marginTop:"37px"}}> 
-                                                <img  src={clock} alt="ghadi"/>
-                                                <Typography sx={{marginLeft:"5px",
-                                                                 fontStyle:"normal",
-                                                                 fontWeight:"400",
-                                                                 fontSize:"14px",
-                                                                 color:"#DE4313"
-                                            }} >Offer valid till 25th March 2023 </Typography>
-                                             </div>
-                 
-                                                    
-                                                  
-                                                    
+
+
+                                                }}>{value.slice(0, 18)}</Typography>
+                                                <Typography sx={{
+                                                    fontSize: "16px",
+                                                    fontStyle: "normal",
+                                                    fontWeight: "600",
+                                                    letterSpacing: "0.03em",
+                                                    color: " #3C4852",
+                                                    marginTop: "-27px",
+                                                    marginLeft: "105.8px"
+                                                }}>- ₹18,401</Typography></div>
+                                            <div style={{ display: "flex", position: "absolute", marginTop: "37px" }}>
+                                                <img src={clock} alt="ghadi" />
+                                                <Typography sx={{
+                                                    marginLeft: "5px",
+                                                    fontStyle: "normal",
+                                                    fontWeight: "400",
+                                                    fontSize: "14px",
+                                                    color: "#DE4313"
+                                                }} >Offer valid till 25th March 2023 </Typography>
+                                            </div>
+
+
+
+
                                         </div> : ""}
 
 
@@ -360,41 +361,41 @@ export default function Cards() {
 
                                         </div> : ""}
 
-                                        {value === "" ? "" : <div style={{display:"flex",justifyContent:"space-around"}}>
-                                            <Typography sx={{marginRight:"30px"}} >Total (Incl. of 18% GST)</Typography>
+                                        {value === "" ? "" : <div style={{ display: "flex", justifyContent: "space-around" }}>
+                                            <Typography sx={{ marginRight: "30px" }} >Total (Incl. of 18% GST)</Typography>
                                             <Typography >₹149</Typography>
                                         </div>}
 
-                                        {value === "" ? "" : <div style={{marginTop:"46px",display:"flex",justifyContent:"center",gap:"10px"}}>
+                                        {value === "" ? "" : <div style={{ marginTop: "46px", display: "flex", justifyContent: "center", gap: "10px" }}>
                                             <Button sx={{
-                                                width:"170px",
-                                                height:"56px",
+                                                width: "170px",
+                                                height: "56px",
                                                 border: "2px solid #F77171",
-                                                borderRadius:"4px",
-                                                fontStyle:"normal",
-                                                fontWeight:"700",
-                                                fontSize:"19px",
-                                                color:"#F77171",
+                                                borderRadius: "4px",
+                                                fontStyle: "normal",
+                                                fontWeight: "700",
+                                                fontSize: "19px",
+                                                color: "#F77171",
 
-                                               
+
                                             }}>cancel</Button>
-                                            <Button  sx={{
-                                                width:"170px",
-                                                height:"56px",
-                                                background:"#47BA68",
-                                                borderRadius:"4px",
-                                                color:"white",
-                                                fontStyle:"normal",
-                                                fontWeight:"700",
-                                                fontSize:"16px",
-                                                textTransform:"uppercase",
-                                                "&:hover": {backgroundColor: "#47BA68"}
-                                                
+                                            <Button sx={{
+                                                width: "170px",
+                                                height: "56px",
+                                                background: "#47BA68",
+                                                borderRadius: "4px",
+                                                color: "white",
+                                                fontStyle: "normal",
+                                                fontWeight: "700",
+                                                fontSize: "16px",
+                                                textTransform: "uppercase",
+                                                "&:hover": { backgroundColor: "#47BA68" }
+
                                             }}>proceed to pay</Button>
                                         </div>}
-                                        
-                                        <div style={{marginTop:"28px",marginBottom:"32px"}}>
-                                            <Button style={{marginLeft:"20px"}} ><img style={{width:"120px",}} src={Razor} alt='Razor'/></Button>
+
+                                        <div style={{ marginTop: "28px", marginBottom: "32px" }}>
+                                            <Button style={{ marginLeft: "20px" }} ><img style={{ width: "120px", }} src={Razor} alt='Razor' /></Button>
                                         </div>
 
 
